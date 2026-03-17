@@ -15,7 +15,7 @@ function HeroSection(){
         txtColor="#fff";
      }*/}
   return (
-    <section  className="container my-3" style={{ background: theme==="light"?"#fff":"#f23", color: theme==="light"?"#000":"#fff", padding: "20px" }}>
+    <section  className="container-fluid my-3" style={{ background: theme==="light"?"#fff":"#f23", color: theme==="light"?"#000":"#fff", padding: "20px" }}>
       <p>This is the main content area.</p>
     </section>
   );
