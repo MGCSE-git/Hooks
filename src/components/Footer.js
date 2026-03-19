@@ -4,7 +4,7 @@ import ThemeContext from "./ThemeContext";
 function Footer(){
     const {theme} = useContext(ThemeContext);
     return(
-        <div className="container my-3" style={{background: theme==="light"?"#fff":"#222", color: theme==="light"?"#000":"#fff"}}>
+        <div className="container-fluid my-3" style={{background: theme==="light"?"#fff":"#222", color: theme==="light"?"#000":"#fff"}}>
             <h5>Contact</h5>
             <p>Email: support@learnhub.com</p>
             <p>Phone: +1 123-456-7890</p>
