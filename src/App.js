@@ -17,10 +17,10 @@ function App() {
           <ThemeSwitch />
           <Header /> 
           <HeroSection />
-          <Dashboard />
-          <UserProfile />
-          <Books />
-          <Footer />
+          
+          <footer style={{position:'absolute',bottom:'-20px',width:'100%'}}>
+            <Footer />
+          </footer>
         </ThemeProvider>
     </div>
   );
